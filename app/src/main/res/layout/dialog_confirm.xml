@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="300dp"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    android:background="@drawable/shape_radius_dialog_white_90"
+    android:gravity="center"
+    android:orientation="vertical"
+    tools:ignore="MissingPrefix">
+
+    <TextView
+        android:id="@+id/dialogConfirm_tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:textColor="@color/colorDark"
+        android:textSize="16sp" />
+
+
+    <TextView
+        android:id="@+id/dialogConfirm_tvContent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="12dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="21dp"
+        android:gravity="center"
+        android:lineSpacingExtra="5dp"
+        android:textColor="@color/colorDark"
+        android:textSize="14sp"
+        tools:text="Delete SuccessfulDelete SuccessfulDelete Successful" />
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/silver" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/dialogConfirm_tvOK"
+            android:layout_width="0dp"
+            android:layout_height="44dp"
+            android:layout_weight="1"
+            android:foreground="?android:attr/selectableItemBackground"
+            android:gravity="center"
+            android:text="@string/ok"
+            android:textColor="@color/bright_blue"
+            android:textSize="15sp"
+            tools:ignore="UnusedAttribute" />
+
+        <FrameLayout
+            android:id="@+id/dialogConfirm_flCancel"
+            android:layout_width="0dp"
+            android:layout_height="44dp"
+            android:layout_weight="1"
+            android:visibility="gone">
+
+
+            <FrameLayout
+                android:layout_width="1dp"
+                android:layout_height="match_parent"
+                android:background="@color/silver" />
+
+            <TextView
+                android:id="@+id/dialogConfirm_tvCancel"
+                android:layout_width="match_parent"
+                android:layout_height="44dp"
+                android:foreground="?android:attr/selectableItemBackground"
+                android:gravity="center"
+                android:text="@string/cancel"
+                android:textColor="@color/bright_blue"
+                android:textSize="15sp"
+                android:textStyle="bold"
+                tools:ignore="UnusedAttribute" />
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>

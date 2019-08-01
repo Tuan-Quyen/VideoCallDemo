@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/content">
+
+    <com.quickblox.videochat.webrtc.view.QBRTCSurfaceView
+        android:id="@+id/opponentView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentBottom="true" />
+
+    <com.quickblox.videochat.webrtc.view.QBRTCSurfaceView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/localView"
+        android:layout_width="120dp"
+        android:layout_height="150dp" />
+
+    <FrameLayout
+        android:visibility="gone"
+        android:id="@+id/act_frContent"
+        android:layout_width="match_parent"
+        android:layout_height="350dp"
+        android:layout_gravity="bottom"
+        android:background="@color/chatbox">
+
+        <ImageView
+            android:id="@+id/actVideo_close"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="right"
+            android:src="@drawable/ic_cancel_black_24dp" />
+    </FrameLayout>
+
+    <include
+        android:id="@+id/view_action_button"
+        layout="@layout/view_action_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom" />
+</FrameLayout>

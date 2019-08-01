@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">VideoCallDemo</string>
+    <string name="text_welcoming_message">Please enter username and chat room name. \nYou can join existed chat room.</string>
+    <string name="user_name">User Name</string>
+    <string name="password">Password</string>
+    <string name="hint_user">UserName</string>
+    <string name="hint_fullname">FullName</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_confirm">Confirm Password</string>
+    <string name="hint_email">Email</string>
+    <string name="login">Login</string>
+    <string name="ok">ok</string>
+    <string name="unauthorize">Unauthorize</string>
+    <string name="error">Error</string>
+    <string name="cancel">cancel</string>
+    <string name="success">Success</string>
+    <string name="few_second_ago">Few second agos</string>
+    <string name="hint_input_chat">Enter your message</string>
+    <string name="signup_success_content">Create user successfully!!!</string>
+    <string name="empty_fullname_content">FullName is empty</string>
+    <string name="empty_username_content">UserName is empty</string>
+    <string name="empty_password_content">Password is empty</string>
+    <string name="empty_email_content">Email is empty</string>
+    <string name="more_8_length_content">Password required 8 characters length or more</string>
+    <string name="uncorrect_password">Password and Confirm password is not correct</string>
+    <string name="invaild_email">Invail Email</string>
+    <string name="signup_lowercase"><u>signup</u></string>
+    <string name="signup">SignUp</string>
+    <string name="calling_you">calling you …</string>
+    <string name="descripe_signup">Please enter username and password to sign up accont.</string>
+</resources>
